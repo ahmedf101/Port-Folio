@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    width: 100px;
+    height: 100px;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media(max-width:768px){
+  .App-logo{
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,43 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .footer-text {
+    font-size: 14px; 
+    color: #333333; 
+  }
+  
+  .footer-text a {
+    font-weight: 500; 
+    color: #007bff; 
+    text-decoration: none; 
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline; 
+  }
+  
+  .text-gradient {
+    
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .font-medium {
+    font-weight: 500; 
+  }
+  body.dark-mode .footer {
+    background-color: #333; 
+    color: #fff; 
+  }
+  body.dark-mode .footer-text  {
+    color: #55acee;
+  }
